@@ -2,17 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-input[type='number'] {
-  -moz-appearance: textfield;
-  appearance: textfield;
+@font-face {
+  font-family: 'Lusitana';
+  src: url('/fonts/Lusitana-Regular.ttf') format('ttf'),
+       url('/fonts/Lusitana-Bold.woff') format('ttf');
+  font-weight: normal;
+  font-style: normal;
 }
 
-input[type='number']::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-input[type='number']::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+body {
+  font-family: 'Lusitana', sans-serif;
 }
