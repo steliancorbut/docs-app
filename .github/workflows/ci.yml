@@ -3,7 +3,7 @@ name: Deploy Next.js Site
 on:
   push:
     branches:
-      - master  # Rulează workflow-ul la commit-uri pe branch-ul master
+      - main  # Rulează workflow-ul la commit-uri pe branch-ul master
   workflow_dispatch: # Acest rând permite rularea manuală
 
 jobs:
