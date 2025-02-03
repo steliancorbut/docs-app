@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master  # Rulează workflow-ul la commit-uri pe branch-ul master
+  workflow_dispatch: # Acest rând permite rularea manuală
 
 jobs:
   build:
