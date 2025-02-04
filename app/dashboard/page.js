@@ -6,14 +6,14 @@ export default function Page() {
         <section>
           <h2 className="text-xl font-semibold">1. Introducere</h2>
           <ul className="list-disc pl-5">
-            <li>Despre proiectul OptimusS2T și subsistemele care îl compun</li>
+            <li>Despre proiectul Optim S2T și subsistemele care îl compun</li>
             <li>Scopul acestei documentații: Explică ce cuprinde documentația și cum poate fi utilizată.</li>
-            <li>Arhitectura generală a soluției informatice Optimus S2T</li>
+            <li>Arhitectura generală a soluției informatice Optim S2T</li>
           </ul>
         </section>
         
         <section>
-        <a href="/dashboard/recorder" className="text-xl font-semibold text-blue-600 hover:underline">2. Aplicația de înregistrare în sălile de judecată Optimus Recorder</a>
+        <a href="/dashboard/recorder" className="text-xl font-semibold text-blue-600 hover:underline">2. Aplicația de înregistrare în sălile de judecată Optim Recorder</a>
           <ul className="list-disc pl-5">
             <li>Descriere soluție</li>
             <li>Cerințe hardware și software</li>
